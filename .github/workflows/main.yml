@@ -25,7 +25,7 @@ jobs:
     - name: 复制内核配置文件
       run: |
         # 复制配置文件到内核源码目录
-        cp arch/arm64/configs/vendor/sdm660-perf_defconfig .config
+        cp arch/arm64/configs/vendor/sdm660-perf_defconfig ../sdm660-perf_defconfig
 
     - name: 迷之操作
       run: |
